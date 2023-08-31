@@ -23,7 +23,6 @@ obtenerEdad (2pts)
 public class Persona {
     
     String nombre;
-    String apellido;
     int edad;
     String genero;
     static int edadAcumulada = 0;
@@ -51,14 +50,6 @@ public class Persona {
     
     String obtenerNombre(){
         return nombre;
-    }
-    
-    public String getApellido() {
-        return apellido;
-    }
-
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
     }
     
     void setearEdad(int edad){
